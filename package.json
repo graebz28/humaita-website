@@ -1,0 +1,19 @@
+{
+  "name": "gracie-humaita-kansas-city",
+  "version": "1.0.0",
+  "description": "Gracie Humaita Kansas City - Brazilian Jiu Jitsu website",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "bjj",
+    "brazilian-jiu-jitsu",
+    "martial-arts"
+  ],
+  "author": "Gracie Humaita Kansas City",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
