@@ -227,8 +227,14 @@ main {
     max-width: 80vw;
 }
 
-.page-content img {
+.content-img {
     width: 80vw;
+    border-radius: 5px;
+}
+
+.instructor-img {
+    width: 60vw;
+    border-radius: 10px;
 }
 
 .page-content hr {
@@ -289,6 +295,15 @@ footer a:hover {
 
 .footer-links {
     list-style: none;
+}
+
+.footer-social a {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.iframe {
+    padding: 1rem 0;
 }
 
 @media (min-width: 768px) {
@@ -368,8 +383,13 @@ footer a:hover {
         margin: 1rem auto;
     }
 
-    .page-content img {
-        width: 30vw;
+    .content-img {
+        width: 25vw;
+    }
+
+    .instructor-img {
+        width: 20vw;
+        border-radius: 20px;
     }
 
     .page-content a:hover {
@@ -420,6 +440,14 @@ footer a:hover {
         background: none;
         border: none;
         cursor: pointer;
+    }
+
+    .page-h2 {
+        margin: 2rem 0 0;
+    }
+
+    .iframe {
+        padding: 0;
     }
 }
 
