@@ -194,6 +194,11 @@ main {
     color: white;
 }
 
+.news {
+    letter-spacing: 0.1rem;
+    font-weight: 200;
+}
+
 .page-content p, .page-content ul, em {
     color: silver;
     line-height: 1.25rem;
