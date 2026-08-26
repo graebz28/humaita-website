@@ -194,7 +194,7 @@ main {
     color: white;
 }
 
-.news {
+#news {
     letter-spacing: 0.1rem;
     font-weight: 200;
 }
@@ -356,32 +356,31 @@ footer a:hover {
 
     .hero-content h1, .hero-content h2 {
         width: 40vw;
+        max-height: 25vh;
     }
 
     .hero-content h1 {
-        padding-top: 4rem;
-        line-height: 3.9rem;
-        font-size: 3.9rem;
-        letter-spacing: 0.39rem;
+        padding: 8vh 0 4vh 0;
+        line-height: 4.2rem;
+        font-size: 4.2rem;
+        letter-spacing: 0.42rem;
     }
     
     .hero-content h2 {
-        padding-bottom: 4rem;
-        font-size: 2rem;
-        letter-spacing: 0.2rem;
+        padding-bottom: 6vh;
+        font-size: 2.2rem;
+        letter-spacing: 0.22rem;
         font-weight: 200;
     }
 
-    .quick-contact a {
-        width: 20rem;
+    .quick-contact {
+        display: none;
     }
 
-    .quick-contact a {
-        transition: letter-spacing 0.3s ease;
-    }
-
-    .quick-contact a:hover {
-        letter-spacing: 0.15rem;
+    #news {
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+        font-style: italic;
     }
 
     .page-content p {
