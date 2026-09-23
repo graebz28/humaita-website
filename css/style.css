@@ -384,7 +384,7 @@ footer a:hover {
     }
 
     .page-content p {
-        max-width: 65ch;
+        max-width: 95ch;
         margin: 1rem auto;
     }
 
@@ -449,6 +449,15 @@ footer a:hover {
 
     .page-h2 {
         margin: 2rem 0 0;
+    }
+
+    .page-content {
+        padding: 1rem 1.5rem;
+    }
+
+    .page-content p {
+        max-width: 65ch;
+        margin: 0.75rem auto;
     }
 
     .iframe {
